@@ -6,7 +6,7 @@ from rest_framework import status
 
 # Create your views here.
 
-class UserCreate(APIView):
+class SampleGet(APIView):
 
     def get(self, request, format=None):
         content = {
