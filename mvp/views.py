@@ -12,5 +12,4 @@ class SampleGet(APIView):
         content = {
             "Message":"Hello"
             }
-        print("Hello")
         return Response(content,status.HTTP_200_OK)
