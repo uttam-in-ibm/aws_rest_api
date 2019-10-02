@@ -11,6 +11,5 @@ class SampleGet(APIView):
     def get(self, request, format=None):
         content = {
             "Message":"Hello"
-            }
-        # comment added    
+            } 
         return Response(content,status.HTTP_200_OK)
